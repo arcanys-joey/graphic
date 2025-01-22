@@ -90,6 +90,10 @@ abstract class Defaults {
   /// A color for text.
   static Color textColor = const Color(0xff808080);
 
+static List<Color> get colorsExam => [
+        const Color(0xffff99c3),
+        const Color(0xff5b8ff9),
+      ];
   /// A color palette of 10 colors.
   static List<Color> get colors10 => [
         const Color(0xff5b8ff9),

@@ -8,6 +8,7 @@ import 'pages/echarts.dart';
 import 'pages/interaction_stream_dynamic.dart';
 import 'pages/interval.dart';
 import 'pages/line_area_point.dart';
+import 'pages/my_linear_plot.dart';
 import 'pages/polygon_custom.dart';
 import 'pages/animation.dart';
 
@@ -15,6 +16,7 @@ final routes = {
   '/': (context) => const HomePage(),
   '/examples/Interval': (context) => IntervalPage(),
   '/examples/Line,Area,Point': (context) => LineAreaPointPage(),
+  '/examples/MyLinearPlot': (context) => MyLinearPlotPage(),
   '/examples/Polygon,Custom': (context) => PolygonCustomPage(),
   '/examples/Interaction Stream, Dynamic': (context) =>
       const InteractionStreamDynamicPage(),
@@ -35,7 +37,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       routes: routes,
-      initialRoute: '/',
+      initialRoute: '/examples/MyLinearPlot',
     );
   }
 }
